@@ -3,11 +3,28 @@
     display: flex
     align-items: center
     justify-content: space-between
-    background-color: #FFFFFF
+    background-color: $light
     padding: 40px 0 40px 0
+    &__menu-button
+      display: none
   &__search
     margin-right: auto
     margin-left: 108px
+  &-bottom
+    background-color: $dark
+  &-menu
+    display: flex
+    justify-content: space-between
+    padding: 31px 0 31px 0
+    margin: 0
+    &__item
+      list-style-type: none
+    &__link
+      color: $light
+      text-transform: uppercase
+      text-decoration: none
+      font-size: 14px
+      line-height: 18px
 
 
 .logo
