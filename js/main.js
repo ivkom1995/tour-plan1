@@ -8,4 +8,8 @@ const swiper = new Swiper('.swiper', {
         prevEl: '.slider-button--prev',
     },
     effect :'cards',
+    keyboard: {
+        enabled: 'true',
+        onlyInViewport: true,
+    },
 });
