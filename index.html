@@ -6,6 +6,7 @@
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Best Tour Plan- Hotel Booking</title>
+    <link rel="stylesheet" href="sass/swiper-bundle.min.css">
     <link rel="stylesheet" href="sass/style.css">
 </head>
 <body>
@@ -119,7 +120,26 @@
             <!-- /.hotel-info__rating -->
         </div>
         <!-- /.hotel-info -->
-
+            <div class="hotel-grid">
+                <div class="slider">
+                <!-- Slider main container -->
+                    <div class="swiper">
+                        <!-- Additional required wrapper -->
+                        <div class="swiper-wrapper">
+                            <!-- Slides -->
+                            <div class="swiper-slide"><img src="img/slide.jpg"></div>
+                            <div class="swiper-slide"><img src="img/slide2.jpg"></div>
+                            <div class="swiper-slide"><img src="img/slide3.jpg"></div>
+                            ...
+                        </div>
+                        <!-- If we need navigation buttons -->
+                        <button class="slider-button slider-button--prev"></button>
+                        <button class="slider-button slider-button--next"></button>
+                    </div>
+                </div>
+                <!-- /.slider -->
+            </div>
+            <!-- /.hotel-grid -->
     </div>
     <!-- /.container -->
 
@@ -127,6 +147,7 @@
 
 
 </header>
-
+<script src="js/swiper-bundle.min.js"></script>
+<script src="js/main.js"></script>
 </body>
 </html>
