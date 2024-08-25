@@ -130,22 +130,17 @@
       <div class="hotel-grid">
         <div class="hotel-grid__left">
           <div class="slider">
-                <!-- Slider main container -->
             <div class="swiper">
-              <!-- Additional required wrapper -->
               <div class="swiper-wrapper">
-                <!-- Slides -->
                 <div class="swiper-slide"><img src="img/slide.jpg"/></div>
                 <div class="swiper-slide"><img src="img/slide2.jpg"/></div>
                 <div class="swiper-slide"><img src="img/slide3.jpg"/></div>
-                ...
               </div>
-              <!-- If we need navigation buttons -->
               <button class="slider-button slider-button--prev"></button>
               <button class="slider-button slider-button--next"></button>
             </div>
           </div>
-          <!-- /.slider -->
+          <!-- /. slider -->
         </div>
         <!-- /.hotel-grid__left -->
         <div class="hotel-grid__right">
@@ -184,7 +179,7 @@
               <span class="call-center__quick">Quick Booking</span>
               <a href="tel:12100" class="call-center__number">
                 <img
-                        class="phone__icon"
+                        class="call-center__phone-icon"
                         src="img/phone-call.svg"
                         alt="Icon: Phone-call"
                 />
@@ -227,12 +222,52 @@
                 class="subscribe__input"
                 placeholder="Your email address"
         />
-        <button class="subscribe__button">
-          <img src="img/search.svg" alt="icon: search"/>
-        </button>
+        <button class="subscribe__button">Send</button>
       </form>
     </div>
-    <!-- /.newsletter-title -->
+    <!-- /.newsletter-wrapper -->
+  </section>
+  <section class="reviews">
+    <div class="container">
+      <h2 class="section-title">What people think about us</h2>
+      <div class="slides reviews-slider">
+        <div class="presentation reviews-wrapper">
+          <div class="presentation-slides">
+            <div class="presentation-slides__item">
+              <div class="presentation-slides__profile">
+                <img src="img/review-avatar.jpg" alt="Photo: reviews avatar" class="presentation-slides__avatar">
+                <h3 class="presentation-slides__username">Megan Fox</h3>
+                <span class="presentation-slides__date">Stayed 18 Nov, 2019</span>
+                <div class="presentation-slides__rating">
+                  <img src="img/star.svg" alt="Icon: Star"/>
+                  <img src="img/star.svg" alt="Icon: Star"/>
+                  <img src="img/star.svg" alt="Icon: Star"/>
+                  <img src="img/star.svg" alt="Icon: Star"/>
+                  <img src="img/star.svg" alt="Icon: Star"/>
+                </div>
+                <!-- /.presentation-slides__rating -->
+                <p class="presentation-slides__text">It was very nice hotel with cleanliness. Staff behavior was good
+                  and
+                  polite. They welcome us very well. Issue was only that Lift was not in working and we were allotted to
+                  3rd floor and amenities articles were in corner of gallery which were giving bad feeling. Breakfast
+                  was good and support of the staff was also very nice. Location is not good as per atmosphere, it is
+                  very nearby most of the popular places but self location in a narrow street is not good. Overall it
+                  was a good experience and could recommend.</p>
+              </div>
+              <!-- /.presentation-slides__profile -->
+            </div>
+            <!-- /.presentation-slides__item -->
+          </div>
+          <!-- /. presentation-slides-->
+        </div>
+        <!-- /. presentation reviews-wrapper -->
+
+        <div class="presentation-button-prev"></div>
+        <div class="presentation-button-next"></div>
+      </div>
+      <!-- /. slides reviews-slider -->
+    </div>
+    <!-- /.container -->
   </section>
 </header>
 <script src="js/swiper-bundle.min.js"></script>
